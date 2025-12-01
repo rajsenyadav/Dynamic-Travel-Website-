@@ -1,15 +1,7 @@
 # 🌍 Avipro Travels
 
-> A dynamic CMS-based travel package booking website built with PHP, MySQL, and JavaScript.
+> A dynamic CMS-based travel package booking website built with HTML , CSS ,PHP, MySQL, and JavaScript.
 
-[![PHP](https://img.shields.io/badge/PHP-7.4+-777BB4?logo=php&logoColor=white)](https://php.net)
-[![MySQL](https://img.shields.io/badge/MySQL-5.7+-4479A1?logo=mysql&logoColor=white)](https://mysql.com)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-[Live Demo](http://avipro-travels.infinityfreeapp.com) • [Documentation](docs/) • [Report Bug](../../issues)
-
----
 
 ## 🚀 Quick Start
 
@@ -215,35 +207,6 @@ Ctrl + F5 (Windows) or Cmd + Shift + R (Mac)
 
 </details>
 
----
-
-## 📖 Documentation
-
-- **Quick Start:** This README
-- **Detailed Guide:** [UNDERSTANDING_THE_PROJECT.txt](UNDERSTANDING_THE_PROJECT.txt)
-- **Deployment:** [DEPLOYMENT_GUIDE.txt](DEPLOYMENT_GUIDE.txt)
-- **Team Info:** [ABOUT_THE_TEAM.md](ABOUT_THE_TEAM.md)
-
----
-
-## 🎓 For Students
-
-**Developed as:** Final Year Project 2024-2025  
-**College:** [Your College Name], Patna, Bihar  
-**Team:** 10 members  
-
-### Viva Quick Prep
-
-**Q: What is CMS?**  
-A: Content Management System - admins manage content via interface, not code.
-
-**Q: How does AJAX work?**  
-A: Submits forms without page reload using JavaScript fetch API.
-
-**Q: Security features?**  
-A: Password hashing, SQL injection prevention, XSS protection, session management.
-
----
 
 ## 🤝 Contributing
 
@@ -260,10 +223,8 @@ Contributions welcome!
 ---
 
 ## 👥 Authors
-
-**Development Team** - *Final Year CSE Students*
-
-See [ABOUT_THE_TEAM.md](ABOUT_THE_TEAM.md) for detailed team information.
+Raj Sen 
+Student at VIT BHOPAL UNIVERSITY
 
 ---
 
@@ -271,17 +232,6 @@ See [ABOUT_THE_TEAM.md](ABOUT_THE_TEAM.md) for detailed team information.
 
 MIT License - see [LICENSE](LICENSE) file
 
----
-
-## 🙏 Acknowledgments
-
-- Project Guide: [Professor Name]
-- Institution: [College Name]
-- Free Hosting: InfinityFree
-- Icons: Font Awesome
-- Fonts: Google Fonts
-
----
 
 ## 📞 Support
 
