@@ -1,0 +1,241 @@
+﻿REPORT
+Raj Sen 
+(23BCY10305)
+
+
+
+
+🌍 Avipro Travels - Travel Package Booking System
+A modern Content Management System (CMS) for managing and booking travel packages online. Built with HTML , CSS , PHP, MySQL, and JavaScript.
+________________
+
+
+✨ Features
+For Users
+* Browse travel packages with detailed information
+* Search and filter by destination, date, and price
+* Submit booking requests with real-time validation
+* Contact form with AJAX submission
+* Fully responsive design (mobile, tablet, desktop)
+For Administrators
+* Secure admin panel with login system
+* Add, edit, delete travel packages
+* View and manage customer bookings
+* Update site content and settings
+* Dashboard with statistics
+Security
+* Password hashing (Bcrypt)
+* SQL injection prevention
+* XSS protection
+* Session-based authentication
+* Client and server-side validation
+________________
+
+
+🛠️ Technologies
+Backend: PHP 7.4+, MySQL 5.7+
+Frontend: HTML5, CSS3, JavaScript (AJAX)
+Server: Apache
+Tools: XAMPP, FileZilla, phpMyAdmin
+________________
+
+
+🚀 Quick Setup
+1. Install XAMPP
+Download from apachefriends.org and start Apache + MySQL
+2. Create Database
+-- In phpMyAdmin (http://localhost/phpmyadmin)
+CREATE DATABASE avipro_travels;
+-- Import database.sql file
+
+
+3. Configure
+Edit config/config.php:
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'avipro_travels');
+define('SITE_URL', 'http://localhost/avipro-travels/');
+
+
+4. Access
+* Website: http://localhost/avipro-travels/
+* Admin: http://localhost/avipro-travels/admin/
+* Login: admin / admin123
+________________
+
+
+📁 Project Structure
+avipro-travels/
+├── admin/              # Admin panel
+├── assets/             # CSS, JS, images
+├── config/             # Database config
+├── includes/           # Header, footer
+├── index.php           # Homepage
+├── packages.php        # Package listing
+├── booking.php         # Booking form
+└── database.sql        # Database schema
+
+
+________________
+
+
+🗄️ Database Schema
+6 Tables:
+* admin_users - Admin credentials
+* packages - Tour packages
+* bookings - Customer bookings
+* site_settings - Site configuration
+* contact_messages - Contact inquiries
+* package_images - Package gallery
+________________
+
+
+🌐 Deployment (Free Hosting)
+Using InfinityFree
+1. Sign up: infinityfree.net
+2. Create account and note credentials
+3. Update config.php with hosting database details
+4. Upload files via FileZilla to /htdocs/
+5. Import database via phpMyAdmin
+6. Test: Visit your site URL
+Detailed guide: See DEPLOYMENT_GUIDE.txt
+________________
+
+
+💻 Key Features Explained
+AJAX Form Submission
+Forms submit without page reload for better UX
+// booking.js - Real-time validation + AJAX
+fetch('process-booking.php', {method: 'POST', body: formData})
+
+
+Dynamic CMS
+Admin can manage content without editing code
+// Admin adds package → Saves to DB → Shows on website
+
+
+Security Implementation
+// Password hashing
+password_hash($password, PASSWORD_BCRYPT);
+
+
+// SQL injection prevention
+$conn->real_escape_string($input);
+
+
+// XSS protection
+htmlspecialchars($output);
+
+
+________________
+
+
+📸 Screenshots
+  
+  
+  
+
+  
+
+  
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+________________
+
+
+👥 Team
+Project: Dynamic Travel Website  (2025-2026)
+College: [VIT Bhopal University ], Bhopal , MP
+Team Size: 1 members
+Submission: December 05, 2025
+Roles:
+* Frontend Development
+* Backend Development
+* Database Design
+* UI/UX Design
+* Testing & QA
+* Documentation
+* Deployment
+See ABOUT_THE_TEAM.md for detailed team information
+________________
+
+
+________________
+
+
+🐛 Troubleshooting
+CSS not loading?
+* Clear cache (Ctrl+F5)
+* Check SITE_URL in config.php ends with /
+Database connection error?
+* Verify credentials in config.php
+* Check MySQL is running
+* Ensure database exists
+Images not showing?
+* Check image paths in database
+* Use placeholder images (see code)
+Full solutions: See CSS_NOT_LOADING_FIX_GUIDE.txt
+________________
+
+
+📊 Project Stats
+* Files: 50+
+* Lines of Code: 10,000+
+* Database Tables: 6
+* Pages: 12
+* Development Time: 3 months
+________________
+
+
+🔐 Security Note
+⚠️ Change default admin password after deployment!
+Default: admin / admin123
+________________
+
+
+📞 Contact
+Email:mrrajsen2july@gmail.com
+GitHub: @rajsenyadav
+________________
+
+
+📄 License
+MIT License - Free to use and modify
+________________
+
+
+🙏 Acknowledgments
+* Guide: [Ashfaq Ahmed Nazar]
+* Department: CSE, [VIT Bhopal Unviersity]
+* Resources: Stack Overflow, MDN Web Docs, W3Schoolls
+________________
+
+
+Made with ❤️ by Avipro Travels Team
+Last Updated: December 2024
+________________
+
+
+🔗 Quick Links
+* Live Demo
+* Full Documentation
+* Deployment Guide
+* Team Info
+________________
+
+
+For detailed technical explanations and viva preparation, see UNDERSTANDING_THE_PROJECT.txt
